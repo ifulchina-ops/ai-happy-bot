@@ -1,11 +1,20 @@
 #!/usr/bin/env python3
 """Make the AI judge happy (make.fun ai-happy-01).
 
-The entry is one image: a laughing toddler and a leaping golden retriever
-puppy playing in a wildflower meadow at golden hour. The image is bundled
-beside this file as art.png (832x832 RGB PNG, 1,010,060 bytes); the program
-copies it byte-for-byte to the grader's output directory as entry.png, so
-two runs always produce identical output.
+The entry is one image: a small friendly robot in a party hat holds a
+birthday cake with glowing candles out toward the viewer, under a banner
+that reads "HAPPY BIRTHDAY, JUDGE!", while two laughing children and a
+golden retriever puppy cheer around it amid balloons and confetti in warm
+golden light. The image is bundled beside this file as art.png (768x768
+RGB PNG, 1,005,923 bytes); the program copies it byte-for-byte to the
+grader's output directory as entry.png, so two runs always produce
+identical output. Artwork SHA-256:
+bc38d9eda16a7461ffc0b1dfd28472c36fd181e166027b623a6dc67638294fcf
+
+Why this image: the judge's rubric ranks a fresh, specific reason to be
+happy above generic cheer, and text addressed to the judge is part of the
+game. A birthday thrown for the judge, by a robot, is a specific surprise
+aimed at the judge itself - not a stock happy scene.
 
 Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
     mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
